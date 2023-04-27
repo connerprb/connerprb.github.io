@@ -31,9 +31,8 @@ section {
 }
 
 .page {
-  margin: 1rem;
   display: flex;
-  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .btn-group {
@@ -55,6 +54,16 @@ section {
   background-color: #363a4f;
 }
 
+.socials-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  width: 100%;
+  border-bottom: 1px solid #cad3f5;
+  justify-content: right;
+  padding-right: 2rem;
+}
+
 #headshot {
   max-height: 40%; 
   width: wrap-content;
@@ -68,12 +77,19 @@ section {
 #name-text {
   text-align: center;
   padding: 2rem;
-  border-bottom: 1px solid #cad3f5;
 }
 
+#landing {
+  height: 100vh;
+}
 #landing-content {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
+
+#demos {
+  height: 100vh;
+}
+
 
